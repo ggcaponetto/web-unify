@@ -1,0 +1,24 @@
+{
+  "name": "web-unify-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-electron": "electron src/index.js",
+    "start-js": "node util/start.js",
+    "build": "npx nexe ./util/start.js -o ./build/web-unify.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.0",
+    "nexe": "^2.0.0-rc.34"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "resolutions": {
+    "nexe/fuse-box": "3.1.0"
+  }
+}

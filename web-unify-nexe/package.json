@@ -1,0 +1,21 @@
+{
+  "name": "web-unify-nexe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-test": "npx nexe ./src/test.js -o ./build/nexe-build-test.exe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nexe": "^2.0.0-rc.34"
+  },
+  "resolutions": {
+    "nexe/fuse-box": "3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
