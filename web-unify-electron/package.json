@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-electron": "electron src/index.js",
-    "start-js": "node util/start.js",
+    "start-electron": "electron index.js",
+    "start-js": "node start.js",
     "build": "npx nexe ./util/start.js -o ./build/web-unify.exe"
   },
   "author": "",
