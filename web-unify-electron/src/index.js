@@ -6,7 +6,14 @@ const { app, BrowserWindow } = require('electron');
 
 // open app
 app.on("ready", () => {
-	let win = new BrowserWindow({ width: 800, height: 600, show: true });
+	let win = new BrowserWindow({
+		width: 1200,
+		height: 900,
+		show: true,
+		webPreferences: {
+			experimentalFeatures: true
+		}
+	});
 	win.on('closed', () => {
 		win = null
 	});

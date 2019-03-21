@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-electron": "electron index.js",
+    "start-electron": "electron ./src/index.js",
+    "start-electron-sample": "electron ./sample_2/app.js",
     "start-js": "node start.js",
-    "build": "npx nexe ./util/start.js -o ./build/web-unify.exe"
+    "build": "npx nexe ./start.js -o ./build/web-unify.exe"
   },
   "author": "",
   "license": "ISC",
